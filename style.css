@@ -572,12 +572,30 @@ padding: 2rem;
 }
 
 .main__header__rght__text {
+  font-family: 'Dancing Script';
   margin: 1.5rem auto;
   margin-left: 1rem;
   text-align: center;
   font-size: 1.7rem;
-  line-height: 2rem;
+  line-height: 3rem;
   color: rgb(145, 177, 167);
+}
+
+.main__header__right__btn {
+  text-decoration: none;
+  color: rgb(30,35,40);
+  text-transform: capitalize;
+  background-color: rgb(45, 221, 70);
+  margin: 2rem auto;
+  padding: 1.1rem;
+  border-radius: 0.3rem;
+  font-weight: bold;
+  transition: all 0.4s;
+}
+
+.main__header__right__btn:hover {
+  background-color: rgb(26, 119, 40);
+  color: rgb(175, 177, 180);
 }
 
 
@@ -598,4 +616,34 @@ padding: 2rem;
   .header__navigation__logo {
     padding: 0.7rem;
   }
+
+  .main__header__wrapper {
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .main__header__left {
+   max-width: 100%;
+  }
+
+  .main__header__right {
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  .main__header__rght__text {
+    font-family: 'Dancing Script';
+    margin: 1rem auto;
+    margin-left: 1rem;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+  }
+
+  .main__header__right__btn {
+    margin: 1rem auto;
+    font-size: 0.7rem;
+  }
+
 }
