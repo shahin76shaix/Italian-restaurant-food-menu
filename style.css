@@ -362,7 +362,8 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-    font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', cursive;
+  background: linear-gradient(100deg,rgba(27, 30, 32, 0.973),rgb(30,35,40));
 }
 
 .container {
@@ -444,6 +445,90 @@ body {
   width: 3rem;
   height: 3px;
 }
+
+/* -------------------side drawer start from here---------------------- */
+.side-drawer {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(45, 221, 70);
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+}
+
+.side-drawer:target {
+  display: flex;
+}
+
+.side-drawer__title {
+  margin: 1rem auto;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.side-drawer__title__logo {
+  font-family: 'Dancing Script';
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.side-drawer__title__hamburger-linkicon{
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 1rem;
+}
+.side-drawer__title__hamburger-linkicon span {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(30,35,40);
+}
+
+.side-drawer__header {
+  display: flex;
+  margin: 1rem auto;
+  justify-content: center;
+  background-color: rgba(30, 35, 40, 0.603);
+  border-radius: 0.5rem;
+  width: 50%;
+  height: 25%;
+}
+.side-drawer__header__menu {
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+.side-drawer__header__menu__item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+.side-drawer__header__menu__item__link {
+  text-decoration: none;
+  color: rgb(196, 236, 202);
+  font-size: 1.2rem;
+  transition: 0.4s;
+}
+
+.side-drawer__header__menu__item__link:hover {
+  color: rgba(129, 240, 146, 0.562);
+}
+
+
 
 @media (max-width:768px) {
 
