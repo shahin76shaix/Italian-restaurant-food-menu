@@ -618,12 +618,12 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
   font-family: 'Dancing Script', sans-serif;
   color: rgb(45, 221, 70);
   font-weight: normal;
-  font-size: 3.5rem;
+  font-size: 2.7rem;
 }
 .main__content__wrapper__header__text {
   margin: 0;
   color: rgb(145, 177, 167);
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   margin-bottom: 1rem;
   line-height: 2.5rem;
 }
@@ -641,6 +641,8 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
   gap: 1.5rem;
 }
 .main__content__wrapper__menu__item {
+  width: 70%;
+  margin: 1rem auto;
   list-style: none;
   display: flex;
   overflow: hidden;
@@ -661,6 +663,8 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
 .main__content__menu__item__info__container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .main__content__wrapper__menu__item__name {
@@ -670,13 +674,14 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
   font-family: 'Dancing Script';
   font-size: 2rem;
   color: rgb(157, 218, 166);
+  margin-top: 1rem;
   text-transform: uppercase;
 }
 .main__content__wrapper__menu__item__info {
   margin: 0;
   text-align: center;
   padding: 0.4rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(212, 214, 216);
   line-height: 2.1rem;
 }
@@ -684,8 +689,8 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
   text-align: center;
   margin: 1rem auto;
   text-decoration: none;
-  font-size: 1.2rem;
-  width: 10rem;
+  font-size: 1rem;
+  max-width: 9rem;
   padding: 1rem;
   background-color: rgb(45, 221, 70);
   text-transform: capitalize;
@@ -700,6 +705,32 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
   color: rgb(157, 218, 166);
 }
 
+.footer {
+
+}
+.social-media {
+
+}
+.social-media__items {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(15, 15, 15, 0.849);
+}
+.social-media__item {
+  list-style: none;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.social-meida__item__links {
+  color: rgb(45, 221, 70);
+  transition: all 0.4s;
+}
+
+.social-meida__item__links:hover {
+  color: rgb(34, 78, 41);
+}
 
 
 @media (max-width:768px) {
@@ -734,6 +765,9 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
     max-width: 100%;
   }
 
+  .main__header__right__title {
+    font-size: 1.5em;
+  }
   .main__header__rght__text {
     font-family: 'Dancing Script';
     margin: 1rem auto;
@@ -747,4 +781,31 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
     margin: 1rem auto;
     font-size: 0.7rem;
   }
+
+  .main__content__wrapper__header__title {
+    font-size: 2rem;
+  }
+
+  .main__content__wrapper__header__text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .man__content__wrapper__menu__items {
+    margin: 0 auto;
+    width: 75%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+.main__content__wrapper__menu__item__name {
+  font-size: 1.2rem ;
+}
+.main__content__wrapper__menu__item__info {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.main__content__wrapper__menu__item__btn {
+  font-size: 0.6rem;
+}
 }
