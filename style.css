@@ -530,11 +530,11 @@ body {
 
 /* -----------------------------------Main sction start from here----------------------- */
 .main {
-margin-top: 2rem;
 }
 
 .main__header {
-
+background-color: rgba(255, 252, 252, 0.034);
+padding: 2rem;
 }
 
 .main__header__wrapper {
@@ -558,12 +558,26 @@ margin-top: 2rem;
 .main__header__right {
   max-width: 50%;
   flex-grow: 1;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 .main__header__right__title {
   font-family: 'Dancing Script';
+  color: rgba(93, 201, 109, 0.808);
+  text-transform: uppercase;
   text-align: center;
   margin: 0;
+}
+
+.main__header__rght__text {
+  margin: 1.5rem auto;
+  margin-left: 1rem;
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  color: rgb(145, 177, 167);
 }
 
 
