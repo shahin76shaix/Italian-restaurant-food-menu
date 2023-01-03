@@ -641,7 +641,7 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
   gap: 1.5rem;
 }
 .main__content__wrapper__menu__item {
-  width: 70%;
+  width: 85%;
   margin: 1rem auto;
   list-style: none;
   display: flex;
@@ -793,7 +793,7 @@ border-bottom: 1px solid rgba(45, 221, 71, 0.281);
 
   .man__content__wrapper__menu__items {
     margin: 0 auto;
-    width: 75%;
+    width: 85%;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
