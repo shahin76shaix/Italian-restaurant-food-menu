@@ -430,3 +430,35 @@ body {
   background-color: rgb(41, 143, 56);
   color: rgb(68, 67, 68);
 }
+
+.header__hamburger-icon__btn {
+  width: 3rem;
+  height: 3rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__hamburger-icon__btn span {
+  background-color: rgb(45, 221, 70);
+  width: 3rem;
+  height: 3px;
+}
+
+@media (max-width:768px) {
+
+  .container {
+    max-width: 48rem;
+  }
+  .header-menu {
+    display: none;
+  }
+  .header__hamburger-icon__btn {
+    margin-right: 1rem;
+    display: flex;
+  }
+
+  .header__navigation__logo {
+    padding: 0.7rem;
+  }
+}
