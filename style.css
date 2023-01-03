@@ -528,6 +528,44 @@ body {
   color: rgba(129, 240, 146, 0.562);
 }
 
+/* -----------------------------------Main sction start from here----------------------- */
+.main {
+margin-top: 2rem;
+}
+
+.main__header {
+
+}
+
+.main__header__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.main__header__left {
+  max-width: 50%;
+  flex-grow: 1;
+}
+
+.main__header__left__image {
+  width: 100%;
+  object-fit: cover;
+  flex-grow: 2;
+  border-radius: 1rem;
+}
+
+.main__header__right {
+  max-width: 50%;
+  flex-grow: 1;
+}
+
+.main__header__right__title {
+  font-family: 'Dancing Script';
+  text-align: center;
+  margin: 0;
+}
+
 
 
 @media (max-width:768px) {
